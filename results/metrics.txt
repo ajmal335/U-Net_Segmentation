@@ -1,0 +1,5 @@
+U-Net Test Evaluation
+=====================
+Test Images : 1109
+Image Size  : (128, 128)
+Test Dice   : 0.6366
