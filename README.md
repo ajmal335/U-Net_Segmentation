@@ -1,5 +1,18 @@
 # U-Net Semantic Segmentation — Oxford-IIIT Pet Dataset
 
+## Portfolio overview
+
+[Portfolio](https://github.com/ajmal335) · [Recorded test metrics](results/metrics.txt)
+
+**Recorded result:** test Dice 0.6366 on 1,109 images. The committed metrics file records **128 × 128** evaluation images; the illustrative 224 × 224 examples below are not the evaluation configuration. Training was not rerun for this documentation update.
+
+![Pet segmentation example](results/predictions/cat_1_prediction.png)
+
+The trained checkpoint and dataset are not included. Obtain the dataset under its terms, inspect the script configuration, and train before evaluating or predicting. This is a baseline with visible boundary errors, not a production segmentation model.
+
+---
+
+
 A professional PyTorch implementation of **U-Net for semantic image segmentation** using the **Oxford-IIIT Pet Dataset**.
 
 The project covers the complete segmentation workflow: dataset preparation, custom PyTorch dataset loading, U-Net architecture, training, validation, evaluation, model checkpointing, and prediction visualization.
@@ -636,3 +649,4 @@ Topics include:
 This project is intended for educational and portfolio purposes.
 
 The dataset is provided by the Oxford-IIIT Pet Dataset and is subject to its respective terms of use.
+
